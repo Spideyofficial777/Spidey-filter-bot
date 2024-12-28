@@ -47,12 +47,12 @@ TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/")
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "3225d5cf18143ae8921204b4ed9817f7939664b2")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'linkco.site')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "3225d5cf18143ae8921204b4ed9817f7939664b2")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'linkco.site')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "3225d5cf18143ae8921204b4ed9817f7939664b2")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'linkco.site')
+SHORTENER_API = environ.get("SHORTENER_API", "fb30c8d0baba3d820e2fb4576f8ea96df7ca04da")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'modijiurl.com')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "fb30c8d0baba3d820e2fb4576f8ea96df7ca04da")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'modijiurl.com')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "fb30c8d0baba3d820e2fb4576f8ea96df7ca04da")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'modijiurl.com')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
 #---------------------------------------------------------------
@@ -86,7 +86,7 @@ PORT = environ.get('PORT', '5000')
 MAX_BTN = int(environ.get('MAX_BTN', '8'))
 AUTO_DELETE = is_enabled('AUTO_DELETE', True)
 DELETE_TIME = int(environ.get('DELETE_TIME', 1200))
-IMDB = is_enabled('IMDB', False)
+IMDB = is_enabled('IMDB', True)
 FILE_CAPTION = environ.get('FILE_CAPTION', f'{script.FILE_CAPTION}')
 IMDB_TEMPLATE = environ.get('IMDB_TEMPLATE', f'{script.IMDB_TEMPLATE_TXT}')
 LONG_IMDB_DESCRIPTION = is_enabled('LONG_IMDB_DESCRIPTION', False)
@@ -100,7 +100,7 @@ LINK_MODE = is_enabled('LINK_MODE', False)
 STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or Flase
 # Online Stream and Download
 
-MULTI_CLIENT = False
+MULTI_CLIENT = True 
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
 if 'DYNO' in environ:
@@ -144,7 +144,7 @@ admin_cmds = [
     "/delreq", "/channel", "/del_file", "/delete",
     "/deletefiles", "/deleteall", 
     "All These Commands Can Be Used Only By Admins.", 
-    "⚡ powered by @JISSHU_BOTS"
+    "⚡ powered by @"
 ]
 
 cmds = [
