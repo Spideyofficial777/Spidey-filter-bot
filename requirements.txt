@@ -44,3 +44,4 @@ jinja2
 apscheduler 
 colorama
 HorridAPI
+yt-dlp
