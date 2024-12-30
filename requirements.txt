@@ -45,3 +45,4 @@ apscheduler
 colorama
 HorridAPI
 yt-dlp
+youtubesearchpython
