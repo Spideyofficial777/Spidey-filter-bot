@@ -16,6 +16,7 @@ SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '26967459'))
 API_HASH = environ.get('API_HASH', 'b71947dc4f2964519d8abdfb8b4873ac')
 BOT_TOKEN = environ.get('BOT_TOKEN', '7527365991:AAF8o91deJo8-yFSNlKQYTGtNg7B3Uw1Yv4')
+BOT_USERNAME = environ.get('BOT_USERNAME', 'Hacker_x_official_movie_bot')  # Add a default value or environment variable.
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
